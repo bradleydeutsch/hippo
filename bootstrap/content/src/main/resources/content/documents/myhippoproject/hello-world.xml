@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hello-world">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:handle</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:referenceable</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>0047d54c-9530-41af-b736-87be627d6bc9</sv:value>
+  </sv:property>
+  <sv:node sv:name="hello-world">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>myhippoproject:simpledocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>49ce36b6-1cb0-4f97-8207-82eba67abc5c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>hello-world/hello-world[2]</sv:value>
+      <sv:value>hello-world/hello-world[3]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>draft</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:28:36.406Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:28:37.359Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>fdeeb4c1-984a-431a-8b34-74233d46883d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="myhippoproject:title" sv:type="String">
+      <sv:value>Hello World, welcome to Hippo</sv:value>
+    </sv:property>
+    <sv:node sv:name="myhippoproject:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:html</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:content" sv:type="String">
+        <sv:value>&lt;p style="text-align:justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere posuere malesuada. Sed suscipit rhoncus leo, non lobortis nisl feugiat eget. Etiam congue lorem sed velit rhoncus, ac accumsan elit suscipit. Praesent ut nisi aliquam, auctor nisi in, scelerisque turpis. Nullam blandit, erat nec placerat lacinia, libero arcu posuere ligula, sed sollicitudin ante massa in mauris. Morbi nisi erat, efficitur vitae bibendum ut, laoreet et mi. Morbi lobortis, urna tincidunt porttitor dictum, massa enim tempus purus, at pretium dolor est et metus. Suspendisse potenti. Mauris in efficitur eros, a condimentum arcu. Sed mattis velit at elit malesuada, at luctus sem consequat. Phasellus ac sem non odio fermentum sagittis. Maecenas sed semper magna. Morbi ullamcorper ultrices eros ac pulvinar. Donec fringilla nisl eget dolor commodo mollis.&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;Morbi et dui pellentesque, semper leo nec, posuere felis. Duis at aliquet dolor, quis dignissim libero. Pellentesque sit amet accumsan nulla, sollicitudin tincidunt lorem. Proin ac faucibus augue. Morbi sit amet quam nec mauris sollicitudin bibendum et quis mauris. Pellentesque vehicula mauris tortor, vel tristique ipsum porta in. Aliquam imperdiet turpis orci, ut condimentum neque ullamcorper in.&lt;/p&gt;</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Hello World</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hello-world">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>myhippoproject:simpledocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>02394be1-a592-4324-82df-69d3db111425</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>hello-world/hello-world[3]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>unpublished</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:28:36.406Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:29:28.694Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>fdeeb4c1-984a-431a-8b34-74233d46883d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="myhippoproject:title" sv:type="String">
+      <sv:value>Hello World, welcome to Hippo</sv:value>
+    </sv:property>
+    <sv:node sv:name="myhippoproject:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:html</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:content" sv:type="String">
+        <sv:value>&lt;p style="text-align:justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere posuere malesuada. Sed suscipit rhoncus leo, non lobortis nisl feugiat eget. Etiam congue lorem sed velit rhoncus, ac accumsan elit suscipit. Praesent ut nisi aliquam, auctor nisi in, scelerisque turpis. Nullam blandit, erat nec placerat lacinia, libero arcu posuere ligula, sed sollicitudin ante massa in mauris. Morbi nisi erat, efficitur vitae bibendum ut, laoreet et mi. Morbi lobortis, urna tincidunt porttitor dictum, massa enim tempus purus, at pretium dolor est et metus. Suspendisse potenti. Mauris in efficitur eros, a condimentum arcu. Sed mattis velit at elit malesuada, at luctus sem consequat. Phasellus ac sem non odio fermentum sagittis. Maecenas sed semper magna. Morbi ullamcorper ultrices eros ac pulvinar. Donec fringilla nisl eget dolor commodo mollis.&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;Morbi et dui pellentesque, semper leo nec, posuere felis. Duis at aliquet dolor, quis dignissim libero. Pellentesque sit amet accumsan nulla, sollicitudin tincidunt lorem. Proin ac faucibus augue. Morbi sit amet quam nec mauris sollicitudin bibendum et quis mauris. Pellentesque vehicula mauris tortor, vel tristique ipsum porta in. Aliquam imperdiet turpis orci, ut condimentum neque ullamcorper in.&lt;/p&gt;</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hello-world">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>myhippoproject:simpledocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>564453b6-3a55-4be2-8c71-08b47f69e86c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>hello-world/hello-world[2]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>published</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:28:36.406Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:29:28.694Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+      <sv:value>2016-02-01T13:29:40.303Z</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>fdeeb4c1-984a-431a-8b34-74233d46883d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="myhippoproject:title" sv:type="String">
+      <sv:value>Hello World, welcome to Hippo</sv:value>
+    </sv:property>
+    <sv:node sv:name="myhippoproject:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:html</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:content" sv:type="String">
+        <sv:value>&lt;p style="text-align:justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere posuere malesuada. Sed suscipit rhoncus leo, non lobortis nisl feugiat eget. Etiam congue lorem sed velit rhoncus, ac accumsan elit suscipit. Praesent ut nisi aliquam, auctor nisi in, scelerisque turpis. Nullam blandit, erat nec placerat lacinia, libero arcu posuere ligula, sed sollicitudin ante massa in mauris. Morbi nisi erat, efficitur vitae bibendum ut, laoreet et mi. Morbi lobortis, urna tincidunt porttitor dictum, massa enim tempus purus, at pretium dolor est et metus. Suspendisse potenti. Mauris in efficitur eros, a condimentum arcu. Sed mattis velit at elit malesuada, at luctus sem consequat. Phasellus ac sem non odio fermentum sagittis. Maecenas sed semper magna. Morbi ullamcorper ultrices eros ac pulvinar. Donec fringilla nisl eget dolor commodo mollis.&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;Morbi et dui pellentesque, semper leo nec, posuere felis. Duis at aliquet dolor, quis dignissim libero. Pellentesque sit amet accumsan nulla, sollicitudin tincidunt lorem. Proin ac faucibus augue. Morbi sit amet quam nec mauris sollicitudin bibendum et quis mauris. Pellentesque vehicula mauris tortor, vel tristique ipsum porta in. Aliquam imperdiet turpis orci, ut condimentum neque ullamcorper in.&lt;/p&gt;</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
